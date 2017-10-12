@@ -52,10 +52,11 @@ SOCIAL = (('twitter', 'https://twitter.com/River0Dan'),
           ('telegram', u'https;//t.me/dirac1'),
           ('Email', 'mailto:rivero1dan@gmail.com'),)
 
-STATIC_PATHS = ['/files/favicon.ico', '/files/DanielRivero_CV.pdf','/files/dirac_page.gif']
+STATIC_PATHS = ['/favicon-16x16.png','/files/favicon.ico', '/files/DanielRivero_CV.pdf','/files/dirac_page.gif']
 
 EXTRA_PATH_METADATA = {
     '/files/favicon.ico': {'path': 'favicon.ico'},
+    '/favicon-16x16.png': {'path': 'favicon-16x16.png'},
     '/files/DanielRivero_CV.pdf': {'path': 'DanielRivero_CV.pdf'},
     '/files/dirac_page.gif': {'path': 'dirac-page.gif'},
 }

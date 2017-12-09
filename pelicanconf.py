@@ -54,7 +54,6 @@ PLUGINS = ['assets','sitemap']
 LINKS = (('Home', '/index.html'),
          ('About Me', '/pages/about.html'),
          ('Résumé', '/pages/cv.html'),)
-#         ('Academia.edu Profile', 'https://uc-ve.academia.edu/DanielRivero'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/River0Dan'),
@@ -63,8 +62,8 @@ SOCIAL = (('twitter', 'https://twitter.com/River0Dan'),
 STATIC_PATHS = ['files/favicon-16x16.png','files/favicon-32x32.png','files/favicon.ico', 'files/CV_DR_ES.pdf','files/CV_DR_EN.pdf','files/banner.png']
 
 EXTRA_PATH_METADATA = {
-    'files/favicon.ico': {'path': 'files/favicon.ico'},
-#    'files/favicon-16x16.png': {'path': 'files/favicon-16x16.png'},
+    'files/favicon.ico': {'path': 'favicon.ico'},
+    'files/favicon-16x16.png': {'path': 'favicon-16x16.png'},
 #    'files/CV_DR_EN.pdf': {'path': 'CV_DR_EN.pdf'},
 #    'files/CV_DR_ES.pdf': {'path': 'CV_DR_ES.pdf'},
 #    'files/banner.png'  : {'path': 'files/banner.png'},

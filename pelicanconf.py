@@ -26,6 +26,20 @@ MANGLE_EMAILS = True
 GOOGLE_ANALYTICS_PROP = 'dirac.one'
 GOOGLE_ANALYTICS_ID = 'UA-108034005-1'
 
+# SITEMAP
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+          }
 # Personalised Theme
 #CSS_FILE = '/style.css'
 

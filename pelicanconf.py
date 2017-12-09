@@ -27,7 +27,7 @@ GOOGLE_ANALYTICS_PROP = 'dirac.one'
 GOOGLE_ANALYTICS_ID = 'UA-108034005-1'
 
 # Personalised Theme
-CSS_FILE = '/style.css'
+#CSS_FILE = '/style.css'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -39,8 +39,8 @@ PLUGINS = ['assets','sitemap']
 # Blogroll
 LINKS = (('Home', '/index.html'),
          ('About Me', '/pages/about.html'),
-         ('Résumé', '/pages/cv.html'),
-         ('Academia.edu Profile', 'https://uc-ve.academia.edu/DanielRivero'),)
+         ('Résumé', '/pages/cv.html'),)
+#         ('Academia.edu Profile', 'https://uc-ve.academia.edu/DanielRivero'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/River0Dan'),

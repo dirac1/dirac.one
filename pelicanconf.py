@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Daniel Rivero'
 AUTHOR_EMAIL = u'rivero1dan@gmail.com'
 SITENAME = 'dirac is an anagram to..'
-SITEURL = 'dirac.one'
+#SITEURL = 'dirac.one'
 THEME_STATIC_DIR = 'theme'
 THEME = 'theme/voce'
 
@@ -64,6 +64,8 @@ STATIC_PATHS = ['files/favicon-16x16.png','files/favicon-32x32.png','files/favic
 EXTRA_PATH_METADATA = {
     'files/favicon.ico': {'path': 'favicon.ico'},
     'files/favicon-16x16.png': {'path': 'favicon-16x16.png'},
+    'files/favicon-32x32.png': {'path': 'favicon-32x32.png'},
+    'files/favicon-96x96.png': {'path': 'favicon-96x96.png'},
 #    'files/CV_DR_EN.pdf': {'path': 'CV_DR_EN.pdf'},
 #    'files/CV_DR_ES.pdf': {'path': 'CV_DR_ES.pdf'},
 #    'files/banner.png'  : {'path': 'files/banner.png'},

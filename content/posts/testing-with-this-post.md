@@ -2,7 +2,7 @@ Title: I Like dogs, seriously, i really like them
 Date: 2017/10/11 18:18
 Category: tech
 Author: Daniel Rivero
-Tags: Linux,Networking,Dogs
+Tags: Linux,Networking
 status: published
 Summary: Discusses about which dogs i like, all of the are good boys.
 

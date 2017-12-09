@@ -1,0 +1,22 @@
+# LOCAL SIDE
+#
+# This is needed to create the new html output do it inside /blog
+make html
+# This is the method to upload the changes to the online repository
+git add .
+git commit -m "the changes"
+git remote add origin https://github.com/dirac1/dirac.one.git 
+git push origin master
+
+# SERVER SIDE
+#
+# update the server local repository
+git pull origin master
+# In server side you have to create the html also
+make html
+# then move the output directory to the http server as root
+cp -r /home/dirac/web/dirac.one/env/dirac.one/output /srv/http/www
+# Then you'll need to change the ownedship to avoid security issues 
+chown -R http:http /srv/http/www/output
+chown -R http:http /srv/http/www/output/*
+

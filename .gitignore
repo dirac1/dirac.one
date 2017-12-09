@@ -106,8 +106,8 @@ venv.bak/
 #pelican
 output/
 plugins/
+themes
 plugins/pelican-plugins
-theme
 *.pid
 fabfile.py
 

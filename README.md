@@ -1,10 +1,11 @@
 # dirac.one 
+## My blog using Pelican  
 
-### This is my pelican blog configurations: 
+### some of the features:
 
-* Automation tool for the server side
-* [New entry generator](https://github.com/italofarve/blog/blob/master/make\_entrymd.py) by Italo Farfán Vera 
-* Using a modified version of the the[voce theme] (https://github.com/limbenjamin/voce) by Benjamin Lim 
+* Instructions for automation on the local and server side in `update.txt`
+* Script to generate easily [new entries](https://github.com/italofarve/blog/blob/master/make\_entrymd.py) by Italo Farfán Vera 
+* Using a modified version of the the [voce theme](https://github.com/limbenjamin/voce) by Benjamin Lim 
 
 --- 
 

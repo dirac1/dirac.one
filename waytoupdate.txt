@@ -1,5 +1,5 @@
-# LOCAL SIDE
-#
+# 		----- LOCAL SIDE -----
+
 # create the new html output do it inside /blog
 make html
 # upload the changes to the online repository
@@ -8,15 +8,52 @@ git commit -m "the changes"
 git remote add origin https://github.com/dirac1/dirac.one.git 
 git push origin master
 
-# SERVER SIDE
-#
-# update the server local repository
-git pull origin master
-# In server side you have to create the html also
+
+# 		----- SERVER SIDE -----
+
+# -----------------------------------------------------
+	## -- activate_virtualenv.sh --
+   	   #!/bin/bash 
+   	   source '/home/dirac/web/dirac.one/env/bin/activate' 
+
+# -----------------------------------------------------
+
+	## -- git_path.sh -- 
+   	   #!/bin/bash 
+   	   cd /home/dirac/web/dirac.one/env/dirac.one 
+
+# -----------------------------------------------------
+
+# -- server_update.sh --
+#!/bin/bash 
+. /home/dirac/web/dirac.one/env/activate_virtualenv.sh
+. /home/dirac/web/dirac.one/env/git_path.sh
+echo "Activating virtualenv and entering in the git repository"
+echo $PWD
+echo "-------------------"
+sleep 1
+git up
+echo "-------------------"
+echo "Deleting old output"
+rm -rf $blog_path/dirac.one/output
+sleep 1
+echo "-------------------"
+echo "Making the new output"
 make html
-# then move the output directory to the http server as root
-cp -r /home/dirac/web/dirac.one/env/dirac.one/output /srv/http/www
-# changing the ownership 
-chown -R http:http /srv/http/www/output
-chown -R http:http /srv/http/www/output/*
+# this part of the script is as superuser 
+# move the output directory to the http server as root 
+echo "removing old static website" 
+echo "---------------------------" 
+rm -rf  /srv/http/www/output 
+sleep 1 
+echo "copying new static website" 
+echo "---------------------------" 
+cp -r /home/dirac/web/dirac.one/env/dirac.one/output /srv/http/www 
+sleep 1 
+# Then you'll need to change the ownership to avoid security issues  
+echo "changing ownership to the new static website" 
+echo "---------------------------" 
+chown -R http:http /srv/http/www/output 
+chown -R http:http /srv/http/www/output/* 
+sleep 1 
 

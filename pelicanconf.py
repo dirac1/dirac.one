@@ -56,7 +56,7 @@ LINKS = (('Home', '/index.html'),
          ('Résumé', '/pages/cv.html'),
          ('GPG Key', '/pages/pgp-key.html'),)
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/River0Dan'),
+SOCIAL = (('twitter', 'https://twitter.com/drivero91'),
           ('Email', 'mailto:rivero1dan@gmail.com'),)
 
 STATIC_PATHS = ['files/favicon-16x16.png','files/favicon-32x32.png','files/favicon.ico', 'files/CV_DR_ES.pdf','files/CV_DR_EN.pdf','files/banner.png','/pages/gpg.html']

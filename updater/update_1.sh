@@ -6,7 +6,7 @@ echo "Activating virtualenv and entering in the git repository"
 echo $PWD
 echo "-------------------"
 sleep 1
-git up
+git pull origin master
 echo "-------------------"
 echo "Deleting old output"
 rm -rf $blog_path/dirac.one/output

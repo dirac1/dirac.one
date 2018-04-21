@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Daniel Rivero'
 AUTHOR_EMAIL = u'rivero1dan@gmail.com'
-SITENAME = 'dirac is an anagram to...'
+SITENAME = 'dirac.one'
 SITEURL = 'dirac.one'
 THEME_STATIC_DIR = 'theme'
 THEME = 'theme/voce'
@@ -18,7 +18,7 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 
 # Theme related options
 USER_LOGO_URL = '/files/banner.png'
-GLOBAL_KEYWORDS = ['Linux','Networking','Security','Telecommunication']
+GLOBAL_KEYWORDS = ['Linux','Networking','Security','Telecommunications']
 FUZZY_DATES = 'true'
 TAGS_URL = 'tags.html'
 ARCHIVES_URL = 'archives.html'

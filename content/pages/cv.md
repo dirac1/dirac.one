@@ -6,7 +6,6 @@ Author: Daniel Rivero
 Summary: Curriculum Vitae - résumé
 Tags: me
 
-#<center>Download my résumé:</center>
 ---
 ##<center>[CV in English](/files/CV_DR_EN.pdf)</center>
 ---

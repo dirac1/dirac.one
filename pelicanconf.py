@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Daniel Rivero'
-AUTHOR_EMAIL = u'rivero1dan@gmail.com'
-SITENAME = 'dirac.one'
+AUTHOR_EMAIL = u'admin@dirac.one'
+SITENAME = 'dirac is an anagram to'
 SITEURL = 'dirac.one'
 THEME_STATIC_DIR = 'theme'
 THEME = 'theme/voce'

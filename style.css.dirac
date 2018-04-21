@@ -249,6 +249,7 @@ textarea {
 .entry-content,
 .entry-summary {
   margin: 20px 0 0;
+  text-align: justify;
 }
 .page-links {
   clear: both;
